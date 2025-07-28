@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: 'Roboto', sans-serif;
+  color: rgb(255, 255, 255);
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  line-height: 2;
+}
+
+#title {
+  color: rgb(165, 172, 187);
+  margin: 40px 0 50px 0;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+#title::before, #title::after {
+  content: "";
+  flex: 0.38;
+  height: 1px;
+  background: #aaa;
+}
+
+#title span {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #333;
+  white-space: nowrap;
+  
+}
+
+#content{
+  width:96%;
+  margin: auto;
+}
+
+h2{
+  color: rgb(203, 207, 217);
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 35px;
+  text-align: left;
+  margin: 20px 40px;
+  width: 90%;
+}
+
+h2 span{
+  color: rgb(165, 172, 187);
+  font-family: Arial, sans-serif;
+}
+
+.posts:hover{
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+  opacity: 60%;
+  transition: color 0.5s ease, text-decoration-color 0.3s ease;
+}
+
+.JS:hover{
+  color: rgb(53, 86, 55);
+  text-decoration: underline;
+  opacity: 60%;
+  transition: color 0.5s ease, text-decoration-color 0.3s ease;
+}
+
+.CSS:hover{
+  color: rgb(215, 121, 44);
+  text-decoration: underline;
+  opacity: 60%;
+  transition: color 0.5s ease, text-decoration-color 0.3s ease;
+}
+
+.design:hover{
+  color: rgb(60, 142, 130);
+  text-decoration: underline;
+  opacity: 60%;
+  transition: color 0.5s ease, text-decoration-color 0.3s ease;
+}
+
+.data:hover{
+  color: rgb(22, 33, 125);
+  text-decoration: underline;
+  opacity: 60%;
+  transition: color 0.5s ease, text-decoration-color 0.3s ease;
+}
+
+.motion:hover{
+  color: rgb(132, 39, 39);
+  text-decoration: underline;
+  opacity: 60%;
+  transition: color 0.5s ease, text-decoration-color 0.3s ease;
+}
+
+.main{
+  background-color: rgb(49, 73, 100);
+  width: 96%;
+  margin: auto;
+  padding: 5em 0 5em 0;
+}
+
+.main h1, .main p {
+  transition: transform 0.3s ease, font-size 0.3s ease;
+}
+
+.main:hover h1, .main:hover p {
+  transform: scale(1.05);
+}
+
+.first{
+  background-color: rgb(43, 47, 60);
+  padding: 20px;
+  width: 50%;
+  padding: 5em 0 5em 0;
+}
+
+.first h1, .first p {
+  transition: transform 0.3s ease, font-size 0.3s ease;
+}
+
+.first:hover h1, .first:hover p {
+  transform: scale(1.05);
+}
+
+.second{
+  background-color: rgb(142, 94, 162);
+  padding: 20px;
+  width: 50%;
+  padding: 5em 0 5em 0;
+}
+
+.second h1, .second p {
+  transition: transform 0.3s ease, font-size 0.3s ease;
+}
+
+.second:hover h1, .second:hover p {
+  transform: scale(1.05);
+}
+
+div h1{
+  font-weight: 700 !important;
+  padding: 0 25px 0 25px;
+  font-size: 300%;
+  line-height: 130%;
+}
+
+div p{
+  margin: auto;
+  width:70%;
+  font-size:17px;
+}
+
+img#main{
+  width: 40%;
+  height: auto;
+}
+
+img#first{
+  width: 60%;
+  height: auto;
+  margin: 2px;
+}
+
+img#second{
+  width: 55%;
+  height: auto;
+  margin: 3px;
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  margin: auto;
+  width: 96%;
+}
